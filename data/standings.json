@@ -1,0 +1,66 @@
+{
+  "standings": [
+    {
+      "group": "Group A",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Netherlands"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Senegal"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalDifference": 1,
+          "points": 6
+        }
+      ]
+    },
+    {
+      "group": "Group B",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "name": "England"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 9,
+          "goalDifference": 7,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "USA"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalDifference": 1,
+          "points": 5
+        }
+      ]
+    }
+  ]
+}
