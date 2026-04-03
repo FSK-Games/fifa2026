@@ -1,106 +1,112 @@
 {
   "matches": [
     {
-      "id": 1,
       "group": "A",
+      "status": "FINISHED",
       "homeTeam": {
-        "name": "Qatar"
+        "name": "Qatar",
+        "code": "qa"
       },
       "awayTeam": {
-        "name": "Ecuador"
+        "name": "Ecuador",
+        "code": "ec"
       },
       "score": {
         "fullTime": {
           "home": 0,
           "away": 2
         }
-      },
-      "status": "FINISHED"
+      }
     },
     {
-      "id": 2,
       "group": "A",
+      "status": "IN_PLAY",
       "homeTeam": {
-        "name": "Senegal"
+        "name": "Senegal",
+        "code": "sn"
       },
       "awayTeam": {
-        "name": "Netherlands"
-      },
-      "score": {
-        "fullTime": {
-          "home": 0,
-          "away": 2
-        }
-      },
-      "status": "FINISHED"
-    },
-    {
-      "id": 3,
-      "group": "B",
-      "homeTeam": {
-        "name": "England"
-      },
-      "awayTeam": {
-        "name": "Iran"
-      },
-      "score": {
-        "fullTime": {
-          "home": 6,
-          "away": 2
-        }
-      },
-      "status": "FINISHED"
-    },
-    {
-      "id": 4,
-      "group": "B",
-      "homeTeam": {
-        "name": "USA"
-      },
-      "awayTeam": {
-        "name": "Wales"
+        "name": "Netherlands",
+        "code": "nl"
       },
       "score": {
         "fullTime": {
           "home": 1,
           "away": 1
         }
-      },
-      "status": "FINISHED"
+      }
     },
     {
-      "id": 5,
-      "group": "C",
+      "group": "A",
+      "status": "SCHEDULED",
       "homeTeam": {
-        "name": "Argentina"
+        "name": "Qatar",
+        "code": "qa"
       },
       "awayTeam": {
-        "name": "Saudi Arabia"
-      },
-      "score": {
-        "fullTime": {
-          "home": 1,
-          "away": 2
-        }
-      },
-      "status": "FINISHED"
-    },
-    {
-      "id": 6,
-      "group": "C",
-      "homeTeam": {
-        "name": "Mexico"
-      },
-      "awayTeam": {
-        "name": "Poland"
+        "name": "Senegal",
+        "code": "sn"
       },
       "score": {
         "fullTime": {
           "home": 0,
           "away": 0
         }
+      }
+    },
+    {
+      "group": "B",
+      "status": "FINISHED",
+      "homeTeam": {
+        "name": "England",
+        "code": "gb"
       },
-      "status": "FINISHED"
+      "awayTeam": {
+        "name": "USA",
+        "code": "us"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "status": "IN_PLAY",
+      "homeTeam": {
+        "name": "Iran",
+        "code": "ir"
+      },
+      "awayTeam": {
+        "name": "Wales",
+        "code": "gb-wls"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "name": "England",
+        "code": "gb"
+      },
+      "awayTeam": {
+        "name": "Iran",
+        "code": "ir"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        }
+      }
     }
   ]
 }

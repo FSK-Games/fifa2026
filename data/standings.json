@@ -6,28 +6,58 @@
         {
           "position": 1,
           "team": {
-            "name": "Netherlands"
+            "name": "Ecuador",
+            "code": "ec"
           },
-          "playedGames": 3,
-          "won": 2,
-          "draw": 1,
+          "playedGames": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 0,
-          "goalsFor": 5,
-          "goalDifference": 4,
-          "points": 7
+          "goalsFor": 2,
+          "goalDifference": 2,
+          "points": 3
         },
         {
           "position": 2,
           "team": {
-            "name": "Senegal"
+            "name": "Senegal",
+            "code": "sn"
           },
-          "playedGames": 3,
-          "won": 2,
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Netherlands",
+            "code": "nl"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Qatar",
+            "code": "qa"
+          },
+          "playedGames": 1,
+          "won": 0,
           "draw": 0,
           "lost": 1,
-          "goalsFor": 5,
-          "goalDifference": 1,
-          "points": 6
+          "goalsFor": 0,
+          "goalDifference": -2,
+          "points": 0
         }
       ]
     },
@@ -37,28 +67,58 @@
         {
           "position": 1,
           "team": {
-            "name": "England"
+            "name": "England",
+            "code": "gb"
           },
-          "playedGames": 3,
-          "won": 2,
-          "draw": 1,
+          "playedGames": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 0,
-          "goalsFor": 9,
-          "goalDifference": 7,
-          "points": 7
+          "goalsFor": 3,
+          "goalDifference": 3,
+          "points": 3
         },
         {
           "position": 2,
           "team": {
-            "name": "USA"
+            "name": "Wales",
+            "code": "gb-wls"
           },
-          "playedGames": 3,
-          "won": 1,
-          "draw": 2,
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
           "lost": 0,
-          "goalsFor": 2,
-          "goalDifference": 1,
-          "points": 5
+          "goalsFor": 0,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "USA",
+            "code": "us"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalDifference": -3,
+          "points": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Iran",
+            "code": "ir"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalDifference": 0,
+          "points": 1
         }
       ]
     }
