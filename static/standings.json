@@ -1,52 +1,58 @@
 {
-  "matches": [
+  "standings": [
     {
-      "id": 1,
-      "group": "A",
-      "homeTeam": { "name": "Qatar" },
-      "awayTeam": { "name": "Ecuador" },
-      "score": { "fullTime": { "home": 0, "away": 2 } },
-      "status": "FINISHED"
+      "group": "Group A",
+      "table": [
+        {
+          "position": 1,
+          "team": { "name": "Netherlands" },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalDifference": 4,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": { "name": "Senegal" },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalDifference": 1,
+          "points": 6
+        }
+      ]
     },
     {
-      "id": 2,
-      "group": "A",
-      "homeTeam": { "name": "Senegal" },
-      "awayTeam": { "name": "Netherlands" },
-      "score": { "fullTime": { "home": 0, "away": 2 } },
-      "status": "FINISHED"
-    },
-    {
-      "id": 3,
-      "group": "B",
-      "homeTeam": { "name": "England" },
-      "awayTeam": { "name": "Iran" },
-      "score": { "fullTime": { "home": 6, "away": 2 } },
-      "status": "FINISHED"
-    },
-    {
-      "id": 4,
-      "group": "B",
-      "homeTeam": { "name": "USA" },
-      "awayTeam": { "name": "Wales" },
-      "score": { "fullTime": { "home": 1, "away": 1 } },
-      "status": "FINISHED"
-    },
-    {
-      "id": 5,
-      "group": "C",
-      "homeTeam": { "name": "Argentina" },
-      "awayTeam": { "name": "Saudi Arabia" },
-      "score": { "fullTime": { "home": 1, "away": 2 } },
-      "status": "FINISHED"
-    },
-    {
-      "id": 6,
-      "group": "C",
-      "homeTeam": { "name": "Mexico" },
-      "awayTeam": { "name": "Poland" },
-      "score": { "fullTime": { "home": 0, "away": 0 } },
-      "status": "FINISHED"
+      "group": "Group B",
+      "table": [
+        {
+          "position": 1,
+          "team": { "name": "England" },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 9,
+          "goalDifference": 7,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": { "name": "USA" },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalDifference": 1,
+          "points": 5
+        }
+      ]
     }
   ]
 }
