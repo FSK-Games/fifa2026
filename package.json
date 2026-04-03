@@ -1,5 +1,5 @@
 {
-  "name": "wm2022-fetch",
+  "name": "fifa2022-fetch",
   "version": "1.0.0",
   "dependencies": {
     "node-fetch": "^2.6.7"
