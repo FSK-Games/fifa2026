@@ -35,8 +35,11 @@ async function fetchJSON(endpoint) {
   try {
     console.log("🚀 Starting WM 2022 data fetch...");
 
-    const matches = await fetchJSON("matches");
-    const standings = await fetchJSON("standings");
+    // const matches = await fetchJSON("matches");
+    // const standings = await fetchJSON("standings");
+
+    const matches = require("./static/matches.json");
+    const standings = require("./static/standings.json");
 
     if (!fs.existsSync("data")) {
       console.log("📁 Creating data folder...");
