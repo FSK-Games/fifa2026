@@ -1,0 +1,52 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "group": "A",
+      "homeTeam": { "name": "Qatar" },
+      "awayTeam": { "name": "Ecuador" },
+      "score": { "fullTime": { "home": 0, "away": 2 } },
+      "status": "FINISHED"
+    },
+    {
+      "id": 2,
+      "group": "A",
+      "homeTeam": { "name": "Senegal" },
+      "awayTeam": { "name": "Netherlands" },
+      "score": { "fullTime": { "home": 0, "away": 2 } },
+      "status": "FINISHED"
+    },
+    {
+      "id": 3,
+      "group": "B",
+      "homeTeam": { "name": "England" },
+      "awayTeam": { "name": "Iran" },
+      "score": { "fullTime": { "home": 6, "away": 2 } },
+      "status": "FINISHED"
+    },
+    {
+      "id": 4,
+      "group": "B",
+      "homeTeam": { "name": "USA" },
+      "awayTeam": { "name": "Wales" },
+      "score": { "fullTime": { "home": 1, "away": 1 } },
+      "status": "FINISHED"
+    },
+    {
+      "id": 5,
+      "group": "C",
+      "homeTeam": { "name": "Argentina" },
+      "awayTeam": { "name": "Saudi Arabia" },
+      "score": { "fullTime": { "home": 1, "away": 2 } },
+      "status": "FINISHED"
+    },
+    {
+      "id": 6,
+      "group": "C",
+      "homeTeam": { "name": "Mexico" },
+      "awayTeam": { "name": "Poland" },
+      "score": { "fullTime": { "home": 0, "away": 0 } },
+      "status": "FINISHED"
+    }
+  ]
+}
