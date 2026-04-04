@@ -46,14 +46,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 769,
-        "name": "Mexico",
+        "name": "Mexiko",
         "shortName": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg"
       },
       "awayTeam": {
         "id": 774,
-        "name": "South Africa",
+        "name": "Südafrika",
         "shortName": "South Africa",
         "tla": "RSA",
         "crest": "https://crests.football-data.org/9396.svg"
@@ -73,7 +73,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "11.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -105,7 +107,7 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 772,
-        "name": "South Korea",
+        "name": "Südkorea",
         "shortName": "Korea Republic",
         "tla": "KOR",
         "crest": "https://crests.football-data.org/772.png"
@@ -132,7 +134,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "12.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -164,14 +168,14 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 828,
-        "name": "Canada",
+        "name": "Kanada",
         "shortName": "Canada",
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg"
       },
       "awayTeam": {
         "id": 1060,
-        "name": "Bosnia-Herzegovina",
+        "name": "Bosnien-Herzegowina",
         "shortName": "Bosnia-H.",
         "tla": "BIH",
         "crest": "https://crests.football-data.org/bosnia.svg"
@@ -191,7 +195,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "12.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -250,7 +256,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "13.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -282,14 +290,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 8030,
-        "name": "Qatar",
+        "name": "Katar",
         "shortName": "Qatar",
         "tla": "QAT",
         "crest": "https://crests.football-data.org/8030.svg"
       },
       "awayTeam": {
         "id": 788,
-        "name": "Switzerland",
+        "name": "Schweiz",
         "shortName": "Switzerland",
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg"
@@ -309,7 +317,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "13.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -341,14 +351,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 764,
-        "name": "Brazil",
+        "name": "Brasilien",
         "shortName": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg"
       },
       "awayTeam": {
         "id": 815,
-        "name": "Morocco",
+        "name": "Marokko",
         "shortName": "Morocco",
         "tla": "MAR",
         "crest": "https://crests.football-data.org/morocco.svg"
@@ -368,7 +378,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -427,7 +439,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -459,7 +473,7 @@
       "lastUpdated": "2026-04-02T15:21:05Z",
       "homeTeam": {
         "id": 779,
-        "name": "Australia",
+        "name": "Australien",
         "shortName": "Australia",
         "tla": "AUS",
         "crest": "https://crests.football-data.org/779.svg"
@@ -486,7 +500,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.06.2026",
+      "localTime": "06:00"
     },
     {
       "area": {
@@ -518,7 +534,7 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 759,
-        "name": "Germany",
+        "name": "Deutschland",
         "shortName": "Germany",
         "tla": "GER",
         "crest": "https://crests.football-data.org/759.svg"
@@ -545,7 +561,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -577,7 +595,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 8601,
-        "name": "Netherlands",
+        "name": "Niederlande",
         "shortName": "Netherlands",
         "tla": "NED",
         "crest": "https://crests.football-data.org/8601.svg"
@@ -604,7 +622,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -636,7 +656,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 1935,
-        "name": "Ivory Coast",
+        "name": "Elfenbeinküste",
         "shortName": "Ivory Coast",
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg"
@@ -663,7 +683,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "15.06.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -695,14 +717,14 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 792,
-        "name": "Sweden",
+        "name": "Schweden",
         "shortName": "Sweden",
         "tla": "SWE",
         "crest": "https://crests.football-data.org/792.svg"
       },
       "awayTeam": {
         "id": 802,
-        "name": "Tunisia",
+        "name": "Tunesien",
         "shortName": "Tunisia",
         "tla": "TUN",
         "crest": "https://crests.football-data.org/tunisia.svg"
@@ -722,7 +744,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "15.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -754,14 +778,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 760,
-        "name": "Spain",
+        "name": "Spanien",
         "shortName": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg"
       },
       "awayTeam": {
         "id": 1930,
-        "name": "Cape Verde Islands",
+        "name": "Kapverdische Inseln",
         "shortName": "Cape Verde",
         "tla": "CPV",
         "crest": "https://crests.football-data.org/cape_verde.svg"
@@ -781,7 +805,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "15.06.2026",
+      "localTime": "18:00"
     },
     {
       "area": {
@@ -813,14 +839,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 805,
-        "name": "Belgium",
+        "name": "Belgien",
         "shortName": "Belgium",
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg"
       },
       "awayTeam": {
         "id": 825,
-        "name": "Egypt",
+        "name": "Ägypten",
         "shortName": "Egypt",
         "tla": "EGY",
         "crest": "https://crests.football-data.org/825.svg"
@@ -840,7 +866,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "15.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -872,7 +900,7 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 801,
-        "name": "Saudi Arabia",
+        "name": "Saudi-Arabien",
         "shortName": "Saudi Arabia",
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
@@ -899,7 +927,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "16.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -938,7 +968,7 @@
       },
       "awayTeam": {
         "id": 783,
-        "name": "New Zealand",
+        "name": "Neuseeland",
         "shortName": "New Zealand",
         "tla": "NZL",
         "crest": "https://crests.football-data.org/783.svg"
@@ -958,7 +988,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "16.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -990,7 +1022,7 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 773,
-        "name": "France",
+        "name": "Frankreich",
         "shortName": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg"
@@ -1017,7 +1049,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "16.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -1049,14 +1083,14 @@
       "lastUpdated": "2026-04-01T10:21:10Z",
       "homeTeam": {
         "id": 8062,
-        "name": "Iraq",
+        "name": "Irak",
         "shortName": "Iraq",
         "tla": "IRQ",
         "crest": "https://crests.football-data.org/iraq.svg"
       },
       "awayTeam": {
         "id": 8872,
-        "name": "Norway",
+        "name": "Norwegen",
         "shortName": "Norway",
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg"
@@ -1076,7 +1110,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "17.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -1108,14 +1144,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 762,
-        "name": "Argentina",
+        "name": "Argentinien",
         "shortName": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png"
       },
       "awayTeam": {
         "id": 778,
-        "name": "Algeria",
+        "name": "Algerien",
         "shortName": "Algeria",
         "tla": "ALG",
         "crest": "https://crests.football-data.org/algeria.svg"
@@ -1135,7 +1171,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "17.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -1167,14 +1205,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 816,
-        "name": "Austria",
+        "name": "Österreich",
         "shortName": "Austria",
         "tla": "AUT",
         "crest": "https://crests.football-data.org/816.svg"
       },
       "awayTeam": {
         "id": 8049,
-        "name": "Jordan",
+        "name": "Jordanien",
         "shortName": "Jordan",
         "tla": "JOR",
         "crest": "https://crests.football-data.org/8049.png"
@@ -1194,7 +1232,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "17.06.2026",
+      "localTime": "06:00"
     },
     {
       "area": {
@@ -1233,7 +1273,7 @@
       },
       "awayTeam": {
         "id": 1934,
-        "name": "Congo DR",
+        "name": "DR Kongo",
         "shortName": "Congo DR",
         "tla": "COD",
         "crest": "https://crests.football-data.org/congo_dr.svg"
@@ -1253,7 +1293,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "17.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -1312,7 +1354,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "17.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -1371,7 +1415,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "18.06.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -1403,14 +1449,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 8070,
-        "name": "Uzbekistan",
+        "name": "Usbekistan",
         "shortName": "Uzbekistan",
         "tla": "UZB",
         "crest": "https://crests.football-data.org/8070.png"
       },
       "awayTeam": {
         "id": 818,
-        "name": "Colombia",
+        "name": "Kolumbien",
         "shortName": "Colombia",
         "tla": "COL",
         "crest": "https://crests.football-data.org/818.svg"
@@ -1430,7 +1476,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "18.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -1469,7 +1517,7 @@
       },
       "awayTeam": {
         "id": 774,
-        "name": "South Africa",
+        "name": "Südafrika",
         "shortName": "South Africa",
         "tla": "RSA",
         "crest": "https://crests.football-data.org/9396.svg"
@@ -1489,7 +1537,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "18.06.2026",
+      "localTime": "18:00"
     },
     {
       "area": {
@@ -1521,14 +1571,14 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 788,
-        "name": "Switzerland",
+        "name": "Schweiz",
         "shortName": "Switzerland",
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg"
       },
       "awayTeam": {
         "id": 1060,
-        "name": "Bosnia-Herzegovina",
+        "name": "Bosnien-Herzegowina",
         "shortName": "Bosnia-H.",
         "tla": "BIH",
         "crest": "https://crests.football-data.org/bosnia.svg"
@@ -1548,7 +1598,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "18.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -1580,14 +1632,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 828,
-        "name": "Canada",
+        "name": "Kanada",
         "shortName": "Canada",
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg"
       },
       "awayTeam": {
         "id": 8030,
-        "name": "Qatar",
+        "name": "Katar",
         "shortName": "Qatar",
         "tla": "QAT",
         "crest": "https://crests.football-data.org/8030.svg"
@@ -1607,7 +1659,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "19.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -1639,14 +1693,14 @@
       "lastUpdated": "2026-03-30T20:21:10Z",
       "homeTeam": {
         "id": 769,
-        "name": "Mexico",
+        "name": "Mexiko",
         "shortName": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg"
       },
       "awayTeam": {
         "id": 772,
-        "name": "South Korea",
+        "name": "Südkorea",
         "shortName": "Korea Republic",
         "tla": "KOR",
         "crest": "https://crests.football-data.org/772.png"
@@ -1666,7 +1720,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "19.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -1705,7 +1761,7 @@
       },
       "awayTeam": {
         "id": 779,
-        "name": "Australia",
+        "name": "Australien",
         "shortName": "Australia",
         "tla": "AUS",
         "crest": "https://crests.football-data.org/779.svg"
@@ -1725,7 +1781,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "19.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -1764,7 +1822,7 @@
       },
       "awayTeam": {
         "id": 815,
-        "name": "Morocco",
+        "name": "Marokko",
         "shortName": "Morocco",
         "tla": "MAR",
         "crest": "https://crests.football-data.org/morocco.svg"
@@ -1784,7 +1842,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "20.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -1816,7 +1876,7 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 764,
-        "name": "Brazil",
+        "name": "Brasilien",
         "shortName": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg"
@@ -1843,7 +1903,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "20.06.2026",
+      "localTime": "02:30"
     },
     {
       "area": {
@@ -1902,7 +1964,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "20.06.2026",
+      "localTime": "05:00"
     },
     {
       "area": {
@@ -1934,14 +1998,14 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 8601,
-        "name": "Netherlands",
+        "name": "Niederlande",
         "shortName": "Netherlands",
         "tla": "NED",
         "crest": "https://crests.football-data.org/8601.svg"
       },
       "awayTeam": {
         "id": 792,
-        "name": "Sweden",
+        "name": "Schweden",
         "shortName": "Sweden",
         "tla": "SWE",
         "crest": "https://crests.football-data.org/792.svg"
@@ -1961,7 +2025,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "20.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -1993,14 +2059,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 759,
-        "name": "Germany",
+        "name": "Deutschland",
         "shortName": "Germany",
         "tla": "GER",
         "crest": "https://crests.football-data.org/759.svg"
       },
       "awayTeam": {
         "id": 1935,
-        "name": "Ivory Coast",
+        "name": "Elfenbeinküste",
         "shortName": "Ivory Coast",
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg"
@@ -2020,7 +2086,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "20.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -2079,7 +2147,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "21.06.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -2111,7 +2181,7 @@
       "lastUpdated": "2026-03-30T20:21:10Z",
       "homeTeam": {
         "id": 802,
-        "name": "Tunisia",
+        "name": "Tunesien",
         "shortName": "Tunisia",
         "tla": "TUN",
         "crest": "https://crests.football-data.org/tunisia.svg"
@@ -2138,7 +2208,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "21.06.2026",
+      "localTime": "06:00"
     },
     {
       "area": {
@@ -2170,14 +2242,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 760,
-        "name": "Spain",
+        "name": "Spanien",
         "shortName": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg"
       },
       "awayTeam": {
         "id": 801,
-        "name": "Saudi Arabia",
+        "name": "Saudi-Arabien",
         "shortName": "Saudi Arabia",
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
@@ -2197,7 +2269,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "21.06.2026",
+      "localTime": "18:00"
     },
     {
       "area": {
@@ -2229,7 +2303,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 805,
-        "name": "Belgium",
+        "name": "Belgien",
         "shortName": "Belgium",
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg"
@@ -2256,7 +2330,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "21.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -2295,7 +2371,7 @@
       },
       "awayTeam": {
         "id": 1930,
-        "name": "Cape Verde Islands",
+        "name": "Kapverdische Inseln",
         "shortName": "Cape Verde",
         "tla": "CPV",
         "crest": "https://crests.football-data.org/cape_verde.svg"
@@ -2315,7 +2391,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "22.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -2347,14 +2425,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 783,
-        "name": "New Zealand",
+        "name": "Neuseeland",
         "shortName": "New Zealand",
         "tla": "NZL",
         "crest": "https://crests.football-data.org/783.svg"
       },
       "awayTeam": {
         "id": 825,
-        "name": "Egypt",
+        "name": "Ägypten",
         "shortName": "Egypt",
         "tla": "EGY",
         "crest": "https://crests.football-data.org/825.svg"
@@ -2374,7 +2452,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "22.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -2406,14 +2486,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 762,
-        "name": "Argentina",
+        "name": "Argentinien",
         "shortName": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png"
       },
       "awayTeam": {
         "id": 816,
-        "name": "Austria",
+        "name": "Österreich",
         "shortName": "Austria",
         "tla": "AUT",
         "crest": "https://crests.football-data.org/816.svg"
@@ -2433,7 +2513,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "22.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -2465,14 +2547,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 773,
-        "name": "France",
+        "name": "Frankreich",
         "shortName": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg"
       },
       "awayTeam": {
         "id": 8062,
-        "name": "Iraq",
+        "name": "Irak",
         "shortName": "Iraq",
         "tla": "IRQ",
         "crest": "https://crests.football-data.org/iraq.svg"
@@ -2492,7 +2574,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "22.06.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -2524,7 +2608,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 8872,
-        "name": "Norway",
+        "name": "Norwegen",
         "shortName": "Norway",
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg"
@@ -2551,7 +2635,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "23.06.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -2583,14 +2669,14 @@
       "lastUpdated": "2026-03-30T20:21:10Z",
       "homeTeam": {
         "id": 8049,
-        "name": "Jordan",
+        "name": "Jordanien",
         "shortName": "Jordan",
         "tla": "JOR",
         "crest": "https://crests.football-data.org/8049.png"
       },
       "awayTeam": {
         "id": 778,
-        "name": "Algeria",
+        "name": "Algerien",
         "shortName": "Algeria",
         "tla": "ALG",
         "crest": "https://crests.football-data.org/algeria.svg"
@@ -2610,7 +2696,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "23.06.2026",
+      "localTime": "05:00"
     },
     {
       "area": {
@@ -2649,7 +2737,7 @@
       },
       "awayTeam": {
         "id": 8070,
-        "name": "Uzbekistan",
+        "name": "Usbekistan",
         "shortName": "Uzbekistan",
         "tla": "UZB",
         "crest": "https://crests.football-data.org/8070.png"
@@ -2669,7 +2757,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "23.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -2728,7 +2818,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "23.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -2787,7 +2879,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "24.06.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -2819,14 +2913,14 @@
       "lastUpdated": "2026-04-01T10:21:10Z",
       "homeTeam": {
         "id": 818,
-        "name": "Colombia",
+        "name": "Kolumbien",
         "shortName": "Colombia",
         "tla": "COL",
         "crest": "https://crests.football-data.org/818.svg"
       },
       "awayTeam": {
         "id": 1934,
-        "name": "Congo DR",
+        "name": "DR Kongo",
         "shortName": "Congo DR",
         "tla": "COD",
         "crest": "https://crests.football-data.org/congo_dr.svg"
@@ -2846,7 +2940,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "24.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -2878,14 +2974,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 788,
-        "name": "Switzerland",
+        "name": "Schweiz",
         "shortName": "Switzerland",
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg"
       },
       "awayTeam": {
         "id": 828,
-        "name": "Canada",
+        "name": "Kanada",
         "shortName": "Canada",
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg"
@@ -2905,7 +3001,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "24.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -2937,14 +3035,14 @@
       "lastUpdated": "2026-04-01T00:21:07Z",
       "homeTeam": {
         "id": 1060,
-        "name": "Bosnia-Herzegovina",
+        "name": "Bosnien-Herzegowina",
         "shortName": "Bosnia-H.",
         "tla": "BIH",
         "crest": "https://crests.football-data.org/bosnia.svg"
       },
       "awayTeam": {
         "id": 8030,
-        "name": "Qatar",
+        "name": "Katar",
         "shortName": "Qatar",
         "tla": "QAT",
         "crest": "https://crests.football-data.org/8030.svg"
@@ -2964,7 +3062,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "24.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -2996,7 +3096,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 815,
-        "name": "Morocco",
+        "name": "Marokko",
         "shortName": "Morocco",
         "tla": "MAR",
         "crest": "https://crests.football-data.org/morocco.svg"
@@ -3023,7 +3123,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -3062,7 +3164,7 @@
       },
       "awayTeam": {
         "id": 764,
-        "name": "Brazil",
+        "name": "Brasilien",
         "shortName": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg"
@@ -3082,7 +3184,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -3121,7 +3225,7 @@
       },
       "awayTeam": {
         "id": 769,
-        "name": "Mexico",
+        "name": "Mexiko",
         "shortName": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg"
@@ -3141,7 +3245,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -3173,14 +3279,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 774,
-        "name": "South Africa",
+        "name": "Südafrika",
         "shortName": "South Africa",
         "tla": "RSA",
         "crest": "https://crests.football-data.org/9396.svg"
       },
       "awayTeam": {
         "id": 772,
-        "name": "South Korea",
+        "name": "Südkorea",
         "shortName": "Korea Republic",
         "tla": "KOR",
         "crest": "https://crests.football-data.org/772.png"
@@ -3200,7 +3306,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -3239,7 +3347,7 @@
       },
       "awayTeam": {
         "id": 759,
-        "name": "Germany",
+        "name": "Deutschland",
         "shortName": "Germany",
         "tla": "GER",
         "crest": "https://crests.football-data.org/759.svg"
@@ -3259,7 +3367,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -3298,7 +3408,7 @@
       },
       "awayTeam": {
         "id": 1935,
-        "name": "Ivory Coast",
+        "name": "Elfenbeinküste",
         "shortName": "Ivory Coast",
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg"
@@ -3318,7 +3428,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "25.06.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -3350,14 +3462,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 802,
-        "name": "Tunisia",
+        "name": "Tunesien",
         "shortName": "Tunisia",
         "tla": "TUN",
         "crest": "https://crests.football-data.org/tunisia.svg"
       },
       "awayTeam": {
         "id": 8601,
-        "name": "Netherlands",
+        "name": "Niederlande",
         "shortName": "Netherlands",
         "tla": "NED",
         "crest": "https://crests.football-data.org/8601.svg"
@@ -3377,7 +3489,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -3416,7 +3530,7 @@
       },
       "awayTeam": {
         "id": 792,
-        "name": "Sweden",
+        "name": "Schweden",
         "shortName": "Sweden",
         "tla": "SWE",
         "crest": "https://crests.football-data.org/792.svg"
@@ -3436,7 +3550,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -3495,7 +3611,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -3534,7 +3652,7 @@
       },
       "awayTeam": {
         "id": 779,
-        "name": "Australia",
+        "name": "Australien",
         "shortName": "Australia",
         "tla": "AUS",
         "crest": "https://crests.football-data.org/779.svg"
@@ -3554,7 +3672,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -3586,14 +3706,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 8872,
-        "name": "Norway",
+        "name": "Norwegen",
         "shortName": "Norway",
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg"
       },
       "awayTeam": {
         "id": 773,
-        "name": "France",
+        "name": "Frankreich",
         "shortName": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg"
@@ -3613,7 +3733,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -3652,7 +3774,7 @@
       },
       "awayTeam": {
         "id": 8062,
-        "name": "Iraq",
+        "name": "Irak",
         "shortName": "Iraq",
         "tla": "IRQ",
         "crest": "https://crests.football-data.org/iraq.svg"
@@ -3672,7 +3794,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "26.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -3711,7 +3835,7 @@
       },
       "awayTeam": {
         "id": 760,
-        "name": "Spain",
+        "name": "Spanien",
         "shortName": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg"
@@ -3731,7 +3855,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -3763,14 +3889,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 1930,
-        "name": "Cape Verde Islands",
+        "name": "Kapverdische Inseln",
         "shortName": "Cape Verde",
         "tla": "CPV",
         "crest": "https://crests.football-data.org/cape_verde.svg"
       },
       "awayTeam": {
         "id": 801,
-        "name": "Saudi Arabia",
+        "name": "Saudi-Arabien",
         "shortName": "Saudi Arabia",
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
@@ -3790,7 +3916,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -3822,14 +3950,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 783,
-        "name": "New Zealand",
+        "name": "Neuseeland",
         "shortName": "New Zealand",
         "tla": "NZL",
         "crest": "https://crests.football-data.org/783.svg"
       },
       "awayTeam": {
         "id": 805,
-        "name": "Belgium",
+        "name": "Belgien",
         "shortName": "Belgium",
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg"
@@ -3849,7 +3977,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "05:00"
     },
     {
       "area": {
@@ -3881,7 +4011,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 825,
-        "name": "Egypt",
+        "name": "Ägypten",
         "shortName": "Egypt",
         "tla": "EGY",
         "crest": "https://crests.football-data.org/825.svg"
@@ -3908,7 +4038,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "05:00"
     },
     {
       "area": {
@@ -3967,7 +4099,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -4026,7 +4160,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "27.06.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -4058,7 +4194,7 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 818,
-        "name": "Colombia",
+        "name": "Kolumbien",
         "shortName": "Colombia",
         "tla": "COL",
         "crest": "https://crests.football-data.org/818.svg"
@@ -4085,7 +4221,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "28.06.2026",
+      "localTime": "01:30"
     },
     {
       "area": {
@@ -4117,14 +4255,14 @@
       "lastUpdated": "2026-04-01T10:21:10Z",
       "homeTeam": {
         "id": 1934,
-        "name": "Congo DR",
+        "name": "DR Kongo",
         "shortName": "Congo DR",
         "tla": "COD",
         "crest": "https://crests.football-data.org/congo_dr.svg"
       },
       "awayTeam": {
         "id": 8070,
-        "name": "Uzbekistan",
+        "name": "Usbekistan",
         "shortName": "Uzbekistan",
         "tla": "UZB",
         "crest": "https://crests.football-data.org/8070.png"
@@ -4144,7 +4282,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "28.06.2026",
+      "localTime": "01:30"
     },
     {
       "area": {
@@ -4176,14 +4316,14 @@
       "lastUpdated": "2026-04-04T00:20:57Z",
       "homeTeam": {
         "id": 8049,
-        "name": "Jordan",
+        "name": "Jordanien",
         "shortName": "Jordan",
         "tla": "JOR",
         "crest": "https://crests.football-data.org/8049.png"
       },
       "awayTeam": {
         "id": 762,
-        "name": "Argentina",
+        "name": "Argentinien",
         "shortName": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png"
@@ -4203,7 +4343,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "28.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -4235,14 +4377,14 @@
       "lastUpdated": "2025-12-06T20:20:44Z",
       "homeTeam": {
         "id": 778,
-        "name": "Algeria",
+        "name": "Algerien",
         "shortName": "Algeria",
         "tla": "ALG",
         "crest": "https://crests.football-data.org/algeria.svg"
       },
       "awayTeam": {
         "id": 816,
-        "name": "Austria",
+        "name": "Österreich",
         "shortName": "Austria",
         "tla": "AUT",
         "crest": "https://crests.football-data.org/816.svg"
@@ -4262,7 +4404,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "28.06.2026",
+      "localTime": "04:00"
     },
     {
       "area": {
@@ -4321,7 +4465,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "28.06.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -4380,7 +4526,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "29.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -4439,7 +4587,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "29.06.2026",
+      "localTime": "22:30"
     },
     {
       "area": {
@@ -4498,7 +4648,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "30.06.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -4557,7 +4709,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "30.06.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -4616,7 +4770,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "30.06.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -4675,7 +4831,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "01.07.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -4734,7 +4892,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "01.07.2026",
+      "localTime": "18:00"
     },
     {
       "area": {
@@ -4793,7 +4953,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "01.07.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -4852,7 +5014,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "02.07.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -4911,7 +5075,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "02.07.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -4970,7 +5136,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "03.07.2026",
+      "localTime": "01:00"
     },
     {
       "area": {
@@ -5029,7 +5197,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "03.07.2026",
+      "localTime": "05:00"
     },
     {
       "area": {
@@ -5088,7 +5258,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "03.07.2026",
+      "localTime": "20:00"
     },
     {
       "area": {
@@ -5147,7 +5319,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "04.07.2026",
+      "localTime": "00:00"
     },
     {
       "area": {
@@ -5206,7 +5380,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "04.07.2026",
+      "localTime": "03:30"
     },
     {
       "area": {
@@ -5265,7 +5441,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "04.07.2026",
+      "localTime": "19:00"
     },
     {
       "area": {
@@ -5324,7 +5502,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "04.07.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -5383,7 +5563,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "05.07.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -5442,7 +5624,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "06.07.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -5501,7 +5685,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "06.07.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -5560,7 +5746,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "07.07.2026",
+      "localTime": "02:00"
     },
     {
       "area": {
@@ -5619,7 +5807,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "07.07.2026",
+      "localTime": "18:00"
     },
     {
       "area": {
@@ -5678,7 +5868,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "07.07.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -5737,7 +5929,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "09.07.2026",
+      "localTime": "22:00"
     },
     {
       "area": {
@@ -5796,7 +5990,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "10.07.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -5855,7 +6051,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "11.07.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -5914,7 +6112,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "12.07.2026",
+      "localTime": "03:00"
     },
     {
       "area": {
@@ -5973,7 +6173,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "14.07.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -6032,7 +6234,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "15.07.2026",
+      "localTime": "21:00"
     },
     {
       "area": {
@@ -6091,7 +6295,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "18.07.2026",
+      "localTime": "23:00"
     },
     {
       "area": {
@@ -6150,7 +6356,9 @@
       "odds": {
         "msg": "Activate Odds-Package in User-Panel to retrieve odds."
       },
-      "referees": []
+      "referees": [],
+      "localDate": "19.07.2026",
+      "localTime": "21:00"
     }
   ]
 }

@@ -51,7 +51,7 @@
           "position": 2,
           "team": {
             "id": 769,
-            "name": "Mexico",
+            "name": "Mexiko",
             "shortName": "Mexico",
             "tla": "MEX",
             "crest": "https://crests.football-data.org/769.svg"
@@ -70,7 +70,7 @@
           "position": 3,
           "team": {
             "id": 774,
-            "name": "South Africa",
+            "name": "Südafrika",
             "shortName": "South Africa",
             "tla": "RSA",
             "crest": "https://crests.football-data.org/9396.svg"
@@ -89,7 +89,7 @@
           "position": 4,
           "team": {
             "id": 772,
-            "name": "South Korea",
+            "name": "Südkorea",
             "shortName": "Korea Republic",
             "tla": "KOR",
             "crest": "https://crests.football-data.org/772.png"
@@ -115,7 +115,7 @@
           "position": 1,
           "team": {
             "id": 1060,
-            "name": "Bosnia-Herzegovina",
+            "name": "Bosnien-Herzegowina",
             "shortName": "Bosnia-H.",
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
@@ -134,7 +134,7 @@
           "position": 2,
           "team": {
             "id": 828,
-            "name": "Canada",
+            "name": "Kanada",
             "shortName": "Canada",
             "tla": "CAN",
             "crest": "https://crests.football-data.org/canada.svg"
@@ -153,7 +153,7 @@
           "position": 3,
           "team": {
             "id": 8030,
-            "name": "Qatar",
+            "name": "Katar",
             "shortName": "Qatar",
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
@@ -172,7 +172,7 @@
           "position": 4,
           "team": {
             "id": 788,
-            "name": "Switzerland",
+            "name": "Schweiz",
             "shortName": "Switzerland",
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
@@ -198,7 +198,7 @@
           "position": 1,
           "team": {
             "id": 764,
-            "name": "Brazil",
+            "name": "Brasilien",
             "shortName": "Brazil",
             "tla": "BRA",
             "crest": "https://crests.football-data.org/764.svg"
@@ -217,7 +217,7 @@
           "position": 2,
           "team": {
             "id": 815,
-            "name": "Morocco",
+            "name": "Marokko",
             "shortName": "Morocco",
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
@@ -338,7 +338,7 @@
           "position": 4,
           "team": {
             "id": 779,
-            "name": "Australia",
+            "name": "Australien",
             "shortName": "Australia",
             "tla": "AUS",
             "crest": "https://crests.football-data.org/779.svg"
@@ -364,7 +364,7 @@
           "position": 1,
           "team": {
             "id": 759,
-            "name": "Germany",
+            "name": "Deutschland",
             "shortName": "Germany",
             "tla": "GER",
             "crest": "https://crests.football-data.org/759.svg"
@@ -402,7 +402,7 @@
           "position": 3,
           "team": {
             "id": 1935,
-            "name": "Ivory Coast",
+            "name": "Elfenbeinküste",
             "shortName": "Ivory Coast",
             "tla": "CIV",
             "crest": "https://crests.football-data.org/787.svg"
@@ -447,7 +447,7 @@
           "position": 1,
           "team": {
             "id": 792,
-            "name": "Sweden",
+            "name": "Schweden",
             "shortName": "Sweden",
             "tla": "SWE",
             "crest": "https://crests.football-data.org/792.svg"
@@ -466,7 +466,7 @@
           "position": 2,
           "team": {
             "id": 8601,
-            "name": "Netherlands",
+            "name": "Niederlande",
             "shortName": "Netherlands",
             "tla": "NED",
             "crest": "https://crests.football-data.org/8601.svg"
@@ -504,7 +504,7 @@
           "position": 4,
           "team": {
             "id": 802,
-            "name": "Tunisia",
+            "name": "Tunesien",
             "shortName": "Tunisia",
             "tla": "TUN",
             "crest": "https://crests.football-data.org/tunisia.svg"
@@ -530,7 +530,7 @@
           "position": 1,
           "team": {
             "id": 805,
-            "name": "Belgium",
+            "name": "Belgien",
             "shortName": "Belgium",
             "tla": "BEL",
             "crest": "https://crests.football-data.org/805.svg"
@@ -549,7 +549,7 @@
           "position": 2,
           "team": {
             "id": 825,
-            "name": "Egypt",
+            "name": "Ägypten",
             "shortName": "Egypt",
             "tla": "EGY",
             "crest": "https://crests.football-data.org/825.svg"
@@ -587,7 +587,7 @@
           "position": 4,
           "team": {
             "id": 783,
-            "name": "New Zealand",
+            "name": "Neuseeland",
             "shortName": "New Zealand",
             "tla": "NZL",
             "crest": "https://crests.football-data.org/783.svg"
@@ -613,7 +613,7 @@
           "position": 1,
           "team": {
             "id": 760,
-            "name": "Spain",
+            "name": "Spanien",
             "shortName": "Spain",
             "tla": "ESP",
             "crest": "https://crests.football-data.org/760.svg"
@@ -632,7 +632,7 @@
           "position": 2,
           "team": {
             "id": 1930,
-            "name": "Cape Verde Islands",
+            "name": "Kapverdische Inseln",
             "shortName": "Cape Verde",
             "tla": "CPV",
             "crest": "https://crests.football-data.org/cape_verde.svg"
@@ -651,7 +651,7 @@
           "position": 3,
           "team": {
             "id": 801,
-            "name": "Saudi Arabia",
+            "name": "Saudi-Arabien",
             "shortName": "Saudi Arabia",
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg"
@@ -696,7 +696,7 @@
           "position": 1,
           "team": {
             "id": 8062,
-            "name": "Iraq",
+            "name": "Irak",
             "shortName": "Iraq",
             "tla": "IRQ",
             "crest": "https://crests.football-data.org/iraq.svg"
@@ -715,7 +715,7 @@
           "position": 2,
           "team": {
             "id": 773,
-            "name": "France",
+            "name": "Frankreich",
             "shortName": "France",
             "tla": "FRA",
             "crest": "https://crests.football-data.org/773.svg"
@@ -753,7 +753,7 @@
           "position": 4,
           "team": {
             "id": 8872,
-            "name": "Norway",
+            "name": "Norwegen",
             "shortName": "Norway",
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
@@ -779,7 +779,7 @@
           "position": 1,
           "team": {
             "id": 762,
-            "name": "Argentina",
+            "name": "Argentinien",
             "shortName": "Argentina",
             "tla": "ARG",
             "crest": "https://crests.football-data.org/762.png"
@@ -798,7 +798,7 @@
           "position": 2,
           "team": {
             "id": 778,
-            "name": "Algeria",
+            "name": "Algerien",
             "shortName": "Algeria",
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
@@ -817,7 +817,7 @@
           "position": 3,
           "team": {
             "id": 816,
-            "name": "Austria",
+            "name": "Österreich",
             "shortName": "Austria",
             "tla": "AUT",
             "crest": "https://crests.football-data.org/816.svg"
@@ -836,7 +836,7 @@
           "position": 4,
           "team": {
             "id": 8049,
-            "name": "Jordan",
+            "name": "Jordanien",
             "shortName": "Jordan",
             "tla": "JOR",
             "crest": "https://crests.football-data.org/8049.png"
@@ -862,7 +862,7 @@
           "position": 1,
           "team": {
             "id": 1934,
-            "name": "Congo DR",
+            "name": "DR Kongo",
             "shortName": "Congo DR",
             "tla": "COD",
             "crest": "https://crests.football-data.org/congo_dr.svg"
@@ -900,7 +900,7 @@
           "position": 3,
           "team": {
             "id": 8070,
-            "name": "Uzbekistan",
+            "name": "Usbekistan",
             "shortName": "Uzbekistan",
             "tla": "UZB",
             "crest": "https://crests.football-data.org/8070.png"
@@ -919,7 +919,7 @@
           "position": 4,
           "team": {
             "id": 818,
-            "name": "Colombia",
+            "name": "Kolumbien",
             "shortName": "Colombia",
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
