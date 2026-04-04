@@ -19,7 +19,7 @@ const teamNamesDE = {
   "Senegal": "Senegal",
   "Tunisia": "Tunesien",
   "Egypt": "Ägypten",
-  "Ghana": "Ghana",
+  "Croatia": "Kroatien",
   "Ivory Coast": "Elfenbeinküste",
   "Algeria": "Algerien",
   "Germany": "Deutschland",
