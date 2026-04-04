@@ -62,6 +62,18 @@ function translateTeam(team) {
   };
 }
 
+// UTC → MESZ konvertieren
+function convertToMESZ(utcDateStr) {
+  if (!utcDateStr) return { localDate: null, localTime: null };
+  const date = new Date(utcDateStr);
+  const optionsDate = { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' };
+  const optionsTime = { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit', hour12: false }; // Sekunden entfernt
+  return {
+    localDate: date.toLocaleDateString('de-DE', optionsDate),
+    localTime: date.toLocaleTimeString('de-DE', optionsTime)
+  };
+}
+
 // Funktion, um JSON von der API zu holen
 async function fetchJSON(endpoint) {
   const url = `${BASE_URL}/${endpoint}`;
@@ -96,12 +108,17 @@ async function fetchJSON(endpoint) {
     const matches = await fetchJSON("matches");
     const standings = await fetchJSON("standings");
 
-    // Teams in matches übersetzen
-    matches.matches = matches.matches.map(m => ({
-      ...m,
-      homeTeam: translateTeam(m.homeTeam),
-      awayTeam: translateTeam(m.awayTeam)
-    }));
+    // Teams und MESZ-Datum in matches
+    matches.matches = matches.matches.map(m => {
+      const { localDate, localTime } = convertToMESZ(m.utcDate);
+      return {
+        ...m,
+        homeTeam: translateTeam(m.homeTeam),
+        awayTeam: translateTeam(m.awayTeam),
+        localDate,
+        localTime
+      };
+    });
 
     // Teams in standings übersetzen
     standings.standings.forEach(group => {
@@ -118,7 +135,7 @@ async function fetchJSON(endpoint) {
     fs.writeFileSync("data/matches.json", JSON.stringify(matches, null, 2));
     fs.writeFileSync("data/standings.json", JSON.stringify(standings, null, 2));
 
-    console.log("✅ Data successfully written with German team names:");
+    console.log("✅ Data successfully written with German team names and MESZ fields:");
     console.log(`- matches.json (${matches.matches?.length || 0} matches)`);
     console.log(`- standings.json (${standings.standings?.length || 0} tables)`);
 
