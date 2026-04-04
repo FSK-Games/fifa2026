@@ -8,11 +8,11 @@ const BASE_URL = "https://api.football-data.org/v4/competitions/WC";
 const teamNamesDE = {
   "Mexico": "Mexiko",
   "Canada": "Kanada",
-  "USA": "USA",
+  "United States": "USA",
   "Cape Verde Islands": "Kapverdische Inseln",
   "Panama": "Panama",
   "Haiti": "Haiti",
-  "Jamaica": "Jamaika",
+  "Scotland": "Schottland",
   "Jordan": "Jordanien",
   "South Africa": "Südafrika",
   "Morocco": "Marokko",
