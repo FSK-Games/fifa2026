@@ -10,7 +10,7 @@ const teamNamesDE = {
   "Canada": "Kanada",
   "United States": "USA",
   "Cape Verde Islands": "Kapverdische Inseln",
-  "Panama": "Panama",
+  "Czechia": "Tschechien",
   "Haiti": "Haiti",
   "Scotland": "Schottland",
   "Jordan": "Jordanien",
@@ -48,7 +48,7 @@ const teamNamesDE = {
   "Qatar": "Katar",
   "Iraq": "Irak",
   "Uzbekistan": "Usbekistan",
-  "Thailand": "Thailand",
+  "Turkey": "Türkei",
   "Norway": "Norwegen",
   "New Zealand": "Neuseeland"
 };
