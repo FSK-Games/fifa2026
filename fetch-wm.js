@@ -62,23 +62,25 @@ function translateTeam(team) {
   };
 }
 
-// UTC → MESZ konvertieren und Wochentag ableiten
-function convertToMESZ(utcDateStr) {
-  if (!utcDateStr) return { localDate: null, localTime: null, weekday: null };
+// UTC → MESZ konvertieren und Wochentag in "So., 05.04.2026" Format
+function convertToMESZWithWeekday(utcDateStr) {
+  if (!utcDateStr) return { localDate: null, localTime: null };
   const date = new Date(utcDateStr);
 
-  const optionsDate = { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' };
   const optionsTime = { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit', hour12: false };
+  const localTime = date.toLocaleTimeString('de-DE', optionsTime);
 
-  // Wochentag kurz
-  const weekdays = ["So","Mo","Di","Mi","Do","Fr","Sa"];
-  const weekday = weekdays[date.toLocaleString('de-DE', { timeZone: 'Europe/Berlin', weekday: 'short' }).replace('.', '')];
+  // Wochentag deutsch
+  const weekdays = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];
+  const weekday = weekdays[date.getDay()];
 
-  return {
-    localDate: date.toLocaleDateString('de-DE', optionsDate),
-    localTime: date.toLocaleTimeString('de-DE', optionsTime),
-    weekday
-  };
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+
+  const localDate = `${weekday}, ${day}.${month}.${year}`;
+
+  return { localDate, localTime };
 }
 
 // Funktion, um JSON von der API zu holen
@@ -87,20 +89,9 @@ async function fetchJSON(endpoint) {
   console.log(`Fetching: ${url}`);
 
   try {
-    const res = await fetch(url, {
-      headers: { "X-Auth-Token": process.env.API_KEY }
-    });
-
-    if (!res.ok) {
-      const text = await res.text();
-      throw new Error(`HTTP ${res.status}: ${text}`);
-    }
-
-    const data = await res.json();
-    if (!data) throw new Error("Empty response from API");
-
-    return data;
-
+    const res = await fetch(url, { headers: { "X-Auth-Token": process.env.API_KEY } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+    return await res.json();
   } catch (error) {
     console.error(`❌ Error fetching ${endpoint}:`, error.message);
     process.exit(1);
@@ -115,16 +106,15 @@ async function fetchJSON(endpoint) {
     const matches = await fetchJSON("matches");
     const standings = await fetchJSON("standings");
 
-    // Teams und MESZ-Datum + Wochentag in matches
+    // Teams und MESZ-Datum mit Wochentag in matches
     matches.matches = matches.matches.map(m => {
-      const { localDate, localTime, weekday } = convertToMESZ(m.utcDate);
+      const { localDate, localTime } = convertToMESZWithWeekday(m.utcDate);
       return {
         ...m,
         homeTeam: translateTeam(m.homeTeam),
         awayTeam: translateTeam(m.awayTeam),
         localDate,
-        localTime,
-        weekday
+        localTime
       };
     });
 
@@ -135,15 +125,12 @@ async function fetchJSON(endpoint) {
       });
     });
 
-    if (!fs.existsSync("data")) {
-      console.log("📁 Creating data folder...");
-      fs.mkdirSync("data");
-    }
+    if (!fs.existsSync("data")) fs.mkdirSync("data");
 
     fs.writeFileSync("data/matches.json", JSON.stringify(matches, null, 2));
     fs.writeFileSync("data/standings.json", JSON.stringify(standings, null, 2));
 
-    console.log("✅ Data successfully written with German team names, MESZ fields, and weekday:");
+    console.log("✅ Data successfully written with German team names and MESZ fields (including weekday).");
     console.log(`- matches.json (${matches.matches?.length || 0} matches)`);
     console.log(`- standings.json (${standings.standings?.length || 0} tables)`);
 
