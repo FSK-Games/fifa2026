@@ -62,15 +62,22 @@ function translateTeam(team) {
   };
 }
 
-// UTC → MESZ konvertieren
+// UTC → MESZ konvertieren und Wochentag ableiten
 function convertToMESZ(utcDateStr) {
-  if (!utcDateStr) return { localDate: null, localTime: null };
+  if (!utcDateStr) return { localDate: null, localTime: null, weekday: null };
   const date = new Date(utcDateStr);
+
   const optionsDate = { timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit' };
-  const optionsTime = { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit', hour12: false }; // Sekunden entfernt
+  const optionsTime = { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit', hour12: false };
+
+  // Wochentag kurz
+  const weekdays = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+  const weekday = weekdays[date.toLocaleString('de-DE', { timeZone: 'Europe/Berlin', weekday: 'short' }).replace('.', '')];
+
   return {
     localDate: date.toLocaleDateString('de-DE', optionsDate),
-    localTime: date.toLocaleTimeString('de-DE', optionsTime)
+    localTime: date.toLocaleTimeString('de-DE', optionsTime),
+    weekday
   };
 }
 
@@ -108,15 +115,16 @@ async function fetchJSON(endpoint) {
     const matches = await fetchJSON("matches");
     const standings = await fetchJSON("standings");
 
-    // Teams und MESZ-Datum in matches
+    // Teams und MESZ-Datum + Wochentag in matches
     matches.matches = matches.matches.map(m => {
-      const { localDate, localTime } = convertToMESZ(m.utcDate);
+      const { localDate, localTime, weekday } = convertToMESZ(m.utcDate);
       return {
         ...m,
         homeTeam: translateTeam(m.homeTeam),
         awayTeam: translateTeam(m.awayTeam),
         localDate,
-        localTime
+        localTime,
+        weekday
       };
     });
 
@@ -135,7 +143,7 @@ async function fetchJSON(endpoint) {
     fs.writeFileSync("data/matches.json", JSON.stringify(matches, null, 2));
     fs.writeFileSync("data/standings.json", JSON.stringify(standings, null, 2));
 
-    console.log("✅ Data successfully written with German team names and MESZ fields:");
+    console.log("✅ Data successfully written with German team names, MESZ fields, and weekday:");
     console.log(`- matches.json (${matches.matches?.length || 0} matches)`);
     console.log(`- standings.json (${standings.standings?.length || 0} tables)`);
 
