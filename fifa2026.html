@@ -8,26 +8,34 @@
 <style>
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: white;
     margin: 0;
+    background: #121212;
+    color: white;
 }
 
 .tabs {
     display: flex;
     background: #1E1E1E;
+    position: sticky;
+    top: 0;
 }
 
 .tab {
     flex: 1;
     padding: 15px;
-    background: #2C2C2C;
     text-align: center;
     cursor: pointer;
+    background: #2C2C2C;
 }
 
 .tab.active {
     background: #4A90E2;
+    font-weight: bold;
+}
+
+#matchesContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .match-card {
@@ -39,14 +47,12 @@ body {
     border-radius: 8px;
 }
 
-.home-team { display:flex; justify-content:flex-end; }
-.away-team { display:flex; }
-
+.home-team { display:flex; justify-content:flex-end; align-items:center; }
+.away-team { display:flex; align-items:center; }
 .score { text-align:center; font-weight:bold; }
-
 .status { display:flex; justify-content:flex-end; }
 
-.live { color:red; }
+.live { color: red; }
 
 .flag { width:24px; margin-left:10px; }
 .flag-left { margin-right:10px; }
@@ -59,24 +65,24 @@ body {
 <div id="matchesContainer">Lade Spiele...</div>
 
 <script>
+
 let activeTabDate = null;
+let tabData = {};
 
 function loadMatches(data) {
 
-    const currentDate = new Date().toISOString().split('T')[0];
     const matches = data.matches;
-
     const tabsContainer = document.getElementById('tabsContainer');
-    const matchesContainer = document.getElementById('matchesContainer');
 
-    const tabData = {};
+    tabData = {};
 
+    // 🔹 Gruppieren
     matches.forEach(match => {
         if (!tabData[match.localDate]) tabData[match.localDate] = [];
         tabData[match.localDate].push(match);
     });
 
-    // ✅ KORREKTE SORTIERUNG (jetzt ohne Weebly-Probleme)
+    // 🔹 Sortierung nach Uhrzeit (aufsteigend)
     Object.keys(tabData).forEach(date => {
         tabData[date].sort((a, b) => {
             const [h1, m1] = a.localTime.split(':').map(Number);
@@ -85,6 +91,7 @@ function loadMatches(data) {
         });
     });
 
+    // 🔹 Tabs bauen
     tabsContainer.innerHTML = '';
 
     Object.keys(tabData)
@@ -99,89 +106,100 @@ function loadMatches(data) {
             tabsContainer.appendChild(tab);
         });
 
-    function renderMatches(date) {
-
-        matchesContainer.innerHTML = '';
-
-        tabData[date].forEach(match => {
-
-            const card = document.createElement('div');
-            card.className = 'match-card';
-
-            const [h,m] = match.localTime.split(':');
-
-            const time = document.createElement('div');
-            time.textContent = `${parseInt(h)}:${m} Uhr`;
-
-            const home = document.createElement('div');
-            home.className = 'home-team';
-            home.textContent = match.homeTeam.name;
-
-            const hf = document.createElement('img');
-            hf.src = match.homeTeam.crest;
-            hf.className = 'flag';
-            home.appendChild(hf);
-
-            const score = document.createElement('div');
-            score.className = 'score';
-
-            if (match.score.home !== null && match.score.away !== null) {
-                score.textContent = `${match.score.home} : ${match.score.away}`;
-            } else {
-                score.textContent = '- : -';
-            }
-
-            const away = document.createElement('div');
-            away.className = 'away-team';
-
-            const af = document.createElement('img');
-            af.src = match.awayTeam.crest;
-            af.className = 'flag flag-left';
-
-            away.appendChild(af);
-            away.append(match.awayTeam.name);
-
-            const status = document.createElement('div');
-            status.className = 'status';
-
-            if (match.status === "IN_PLAY") {
-                status.textContent = "🔴 LIVE";
-                status.classList.add('live');
-            }
-
-            card.append(time, home, score, away, status);
-            matchesContainer.appendChild(card);
-        });
+    // 🔹 Nur initial setzen ODER aktuellen Tab behalten
+    if (!activeTabDate) {
+        setActiveTab();
+    } else {
+        renderMatches(activeTabDate);
+        highlightTab(activeTabDate);
     }
-
-    function setActiveTab() {
-
-        const dates = Object.keys(tabData).sort((a,b)=>new Date(a)-new Date(b));
-
-        let selectedDate = dates.find(d => d >= currentDate) || dates[dates.length-1];
-
-        document.querySelectorAll('.tab').forEach(tab=>{
-            tab.classList.toggle('active', tab.dataset.date === selectedDate);
-        });
-
-        activeTabDate = selectedDate;
-        renderMatches(selectedDate);
-    }
-
-    tabsContainer.onclick = (e) => {
-        if (e.target.classList.contains('tab')) {
-
-            document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-
-            e.target.classList.add('active');
-
-            activeTabDate = e.target.dataset.date;
-            renderMatches(activeTabDate);
-        }
-    };
-
-    setActiveTab();
 }
+
+function renderMatches(date) {
+
+    const matchesContainer = document.getElementById('matchesContainer');
+    matchesContainer.innerHTML = '';
+
+    tabData[date].forEach(match => {
+
+        const card = document.createElement('div');
+        card.className = 'match-card';
+
+        const [h,m] = match.localTime.split(':');
+
+        const time = document.createElement('div');
+        time.textContent = `${parseInt(h)}:${m} Uhr`;
+
+        const home = document.createElement('div');
+        home.className = 'home-team';
+        home.textContent = match.homeTeam.name;
+
+        const hf = document.createElement('img');
+        hf.src = match.homeTeam.crest;
+        hf.className = 'flag';
+        home.appendChild(hf);
+
+        const score = document.createElement('div');
+        score.className = 'score';
+
+        if (match.score.home !== null && match.score.away !== null) {
+            score.textContent = `${match.score.home} : ${match.score.away}`;
+        } else {
+            score.textContent = '- : -';
+        }
+
+        const away = document.createElement('div');
+        away.className = 'away-team';
+
+        const af = document.createElement('img');
+        af.src = match.awayTeam.crest;
+        af.className = 'flag flag-left';
+
+        away.appendChild(af);
+        away.append(match.awayTeam.name);
+
+        const status = document.createElement('div');
+        status.className = 'status';
+
+        if (match.status === "IN_PLAY") {
+            status.textContent = "🔴 LIVE";
+            status.classList.add('live');
+        }
+
+        card.append(time, home, score, away, status);
+        matchesContainer.appendChild(card);
+    });
+}
+
+function setActiveTab() {
+
+    const dates = Object.keys(tabData).sort((a,b)=>new Date(a)-new Date(b));
+
+    const today = new Date().toISOString().split('T')[0];
+
+    activeTabDate = dates.find(d => d >= today) || dates[dates.length-1];
+
+    highlightTab(activeTabDate);
+    renderMatches(activeTabDate);
+}
+
+function highlightTab(date) {
+
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.date === date);
+    });
+}
+
+document.getElementById('tabsContainer').addEventListener('click', (e) => {
+
+    if (e.target.classList.contains('tab')) {
+
+        activeTabDate = e.target.dataset.date;
+
+        highlightTab(activeTabDate);
+        renderMatches(activeTabDate);
+    }
+});
 
 function fetchMatches() {
 
@@ -190,7 +208,7 @@ function fetchMatches() {
     fetch('https://fsk-games.github.io/fifa2026/data/matches.json')
         .then(r=>r.json())
         .then(loadMatches)
-        .catch(()=>{
+        .catch(()=> {
             document.getElementById('matchesContainer').innerHTML = "Fehler beim Laden.";
         });
 }
