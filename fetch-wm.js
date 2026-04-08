@@ -9,7 +9,7 @@ const teamNamesDE = {
   "Mexico": "Mexiko",
   "Canada": "Kanada",
   "United States": "USA",
-  "Cape Verde Islands": "Kapverdische Inseln",
+  "Cape Verde Islands": "Kap Verde",
   "Czechia": "Tschechien",
   "Haiti": "Haiti",
   "Scotland": "Schottland",
