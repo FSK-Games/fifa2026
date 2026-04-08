@@ -62,23 +62,25 @@ function translateTeam(team) {
   };
 }
 
-// UTC → MESZ konvertieren und Wochentag in "So., 05.04.2026" Format
 function convertToMESZWithWeekday(utcDateStr) {
   if (!utcDateStr) return { localDate: null, localTime: null };
+
   const date = new Date(utcDateStr);
 
-  const optionsTime = { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit', hour12: false };
-  const localTime = date.toLocaleTimeString('de-DE', optionsTime);
+  const localDate = date.toLocaleDateString('de-DE', {
+    timeZone: 'Europe/Berlin',
+    weekday: 'short',
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
 
-  // Wochentag deutsch
-  const weekdays = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];
-  const weekday = weekdays[date.getDay()];
-
-  const day = String(date.getDate()).padStart(2, '0');
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const year = date.getFullYear();
-
-  const localDate = `${weekday}, ${day}.${month}.${year}`;
+  const localTime = date.toLocaleTimeString('de-DE', {
+    timeZone: 'Europe/Berlin',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
 
   return { localDate, localTime };
 }
