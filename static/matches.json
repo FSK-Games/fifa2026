@@ -66,8 +66,8 @@
           "away": 0
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         }
       },
       "odds": {
