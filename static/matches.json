@@ -101,7 +101,7 @@
       },
       "id": 537328,
       "utcDate": "2026-06-12T02:00:00Z",
-      "status": "FINISHED",
+      "status": "TIMED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
@@ -128,8 +128,8 @@
           "away": 1
         },
         "halfTime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         }
       },
       "odds": {
@@ -345,7 +345,7 @@
       },
       "id": 537339,
       "utcDate": "2026-06-13T22:00:00Z",
-      "status": "FINISHED",
+      "status": "TIMED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
@@ -368,12 +368,12 @@
         "winner": null,
         "duration": "REGULAR",
         "fullTime": {
-          "home": 4,
-          "away": 3
+          "home": null,
+          "away": null
         },
         "halfTime": {
-          "home": 0,
-          "away": 1
+          "home": null,
+          "away": null
         }
       },
       "odds": {
