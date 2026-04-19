@@ -1,8 +1,5 @@
 // fetch-wm.js
-const fetch = require('node-fetch');
 const fs = require('fs');
-
-const ONLINE = (process.env.ONLINE || "false") === "true";
 
 const BASE_URL = "https://api.football-data.org/v4/competitions/WC";
 
@@ -131,7 +128,15 @@ async function fetchJSON(endpoint) {
 
     if (!fs.existsSync("data")) fs.mkdirSync("data");
 
-    fs.writeFileSync("data/matches.json", JSON.stringify(matches, null, 2));
+    // 👇 Toggle ONLINE schreiben
+    const ONLINE = (process.env.ONLINE || "false") === "true";
+
+    const outputMatches = {
+      online: ONLINE,
+      ...matches
+    };
+    
+    fs.writeFileSync("data/matches.json", JSON.stringify(outputMatches, null, 2));
     fs.writeFileSync("data/standings.json", JSON.stringify(standings, null, 2));
 
     console.log("✅ Data successfully written with German team names and MESZ fields (including weekday).");
