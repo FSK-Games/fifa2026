@@ -8,6 +8,8 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    env:
+      ONLINE: ${{ vars.ONLINE }}
 
     steps:
       - uses: actions/checkout@v4
