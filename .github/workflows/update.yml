@@ -9,7 +9,7 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     env:
-      ONLINE: ${{ vars.ONLINE }}
+      BLITZTABELLE: ${{ vars.BLITZTABELLE }}
 
     steps:
       - uses: actions/checkout@v4
