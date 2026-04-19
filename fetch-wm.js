@@ -2,6 +2,8 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 
+const ONLINE = (process.env.ONLINE || "false") === "true";
+
 const BASE_URL = "https://api.football-data.org/v4/competitions/WC";
 
 // Alle 48 WM 2026 Teams in Deutsch
