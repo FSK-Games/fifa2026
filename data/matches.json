@@ -349,7 +349,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 764,
         "name": "Brasilien",
@@ -532,7 +532,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 759,
         "name": "Deutschland",
@@ -543,7 +543,7 @@
       "awayTeam": {
         "id": 9460,
         "name": "Curaçao",
-        "shortName": "Curaçao",
+        "shortName": null,
         "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
@@ -776,7 +776,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 760,
         "name": "Spanien",
@@ -898,7 +898,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 801,
         "name": "Saudi-Arabien",
@@ -1020,7 +1020,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 773,
         "name": "Frankreich",
@@ -1142,7 +1142,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 762,
         "name": "Argentinien",
@@ -1325,7 +1325,7 @@
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 770,
         "name": "England",
@@ -1874,7 +1874,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 764,
         "name": "Brasilien",
@@ -2057,7 +2057,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 759,
         "name": "Deutschland",
@@ -2129,7 +2129,7 @@
       "awayTeam": {
         "id": 9460,
         "name": "Curaçao",
-        "shortName": "Curaçao",
+        "shortName": null,
         "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
@@ -2240,7 +2240,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 760,
         "name": "Spanien",
@@ -2362,7 +2362,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 758,
         "name": "Uruguay",
@@ -2484,7 +2484,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 762,
         "name": "Argentinien",
@@ -2545,7 +2545,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 773,
         "name": "Frankreich",
@@ -2789,7 +2789,7 @@
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 770,
         "name": "England",
@@ -3155,7 +3155,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 8873,
         "name": "Schottland",
@@ -3338,7 +3338,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 791,
         "name": "Ecuador",
@@ -3403,7 +3403,7 @@
       "homeTeam": {
         "id": 9460,
         "name": "Curaçao",
-        "shortName": "Curaçao",
+        "shortName": null,
         "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
@@ -3704,7 +3704,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 8872,
         "name": "Norwegen",
@@ -3826,7 +3826,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 758,
         "name": "Uruguay",
@@ -4070,7 +4070,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 1836,
         "name": "Panama",
@@ -4314,7 +4314,7 @@
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": 8049,
         "name": "Jordanien",
@@ -4436,7 +4436,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4497,7 +4497,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4558,7 +4558,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4619,7 +4619,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4680,7 +4680,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4741,7 +4741,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4802,7 +4802,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4863,7 +4863,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4924,7 +4924,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -4985,7 +4985,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5046,7 +5046,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5107,7 +5107,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5168,7 +5168,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5229,7 +5229,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5290,7 +5290,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5351,7 +5351,7 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5412,7 +5412,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5473,7 +5473,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5534,7 +5534,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5595,7 +5595,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5656,7 +5656,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5717,7 +5717,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5778,7 +5778,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5839,7 +5839,7 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5900,7 +5900,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -5961,7 +5961,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6022,7 +6022,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6083,7 +6083,7 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6144,7 +6144,7 @@
       "matchday": null,
       "stage": "SEMI_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6205,7 +6205,7 @@
       "matchday": null,
       "stage": "SEMI_FINALS",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6266,7 +6266,7 @@
       "matchday": null,
       "stage": "THIRD_PLACE",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
@@ -6327,7 +6327,7 @@
       "matchday": null,
       "stage": "FINAL",
       "group": null,
-      "lastUpdated": "2026-04-21T05:21:06Z",
+      "lastUpdated": "2026-04-11T20:20:48Z",
       "homeTeam": {
         "id": null,
         "name": null,
