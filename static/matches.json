@@ -63,8 +63,8 @@
         "winner": null,
         "duration": "REGULAR",
         "fullTime": {
-          "home": 3,
-          "away": 2
+          "home": 2,
+          "away": 1
         },
         "halfTime": {
           "home": 0,
@@ -125,7 +125,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 2
+          "away": 1
         },
         "halfTime": {
           "home": null,
