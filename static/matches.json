@@ -125,7 +125,7 @@
         "duration": "REGULAR",
         "fullTime": {
           "home": 0,
-          "away": 1
+          "away": 3
         },
         "halfTime": {
           "home": null,
