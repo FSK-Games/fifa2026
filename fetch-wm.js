@@ -129,8 +129,7 @@ async function fetchJSON(endpoint) {
     if (!fs.existsSync("data")) fs.mkdirSync("data");
 
     // 👇 Toggle ONLINE schreiben
-    // const BLITZTIPPTABELLE = (process.env.BLITZTIPPTABELLE || "false") === "true";
-    const BLITZTIPPTABELLE = "true";
+    const BLITZTIPPTABELLE = (process.env.BLITZTIPPTABELLE || "false") === "true";
     const outputMatches = {
       blitztipptabelle: BLITZTIPPTABELLE,
       ...matches
