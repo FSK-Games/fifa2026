@@ -40,7 +40,7 @@
       },
       "id": 537327,
       "utcDate": "2026-06-11T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "TIMED",
       "matchday": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
@@ -63,8 +63,8 @@
         "winner": null,
         "duration": "REGULAR",
         "fullTime": {
-          "home": 0,
-          "away": 4
+          "home": null,
+          "away": nul
         },
         "halfTime": {
           "home": null,
