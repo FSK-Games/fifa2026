@@ -7,6 +7,7 @@ on:
 
 jobs:
   fetch:
+    if: false   # <-- Job wird niemals ausgeführt
     runs-on: ubuntu-latest
     env:
       BLITZTIPPTABELLE: ${{ vars.BLITZTIPPTABELLE }}
