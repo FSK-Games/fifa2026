@@ -135,6 +135,7 @@ async function fetchJSON(endpoint) {
     const BLITZTIPPTABELLE = (process.env.BLITZTIPPTABELLE || "false") === "true";
     const outputMatches = {
       blitztipptabelle: BLITZTIPPTABELLE,
+      lastFetch: new Date().toISOString(), // <-- Hier wird die Fetch-Zeit gespeichert
       ...matches
     };
     
