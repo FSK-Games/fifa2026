@@ -1,6 +1,6 @@
 // fetch-wm.js
 const fs = require('fs');
-
+console.log("🔄 Fetch läuft um:", new Date().toISOString());
 const BASE_URL = "https://api.football-data.org/v4/competitions/WC";
 
 // Alle 48 WM 2026 Teams in Deutsch
