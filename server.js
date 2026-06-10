@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
+app.use(cors()); // erlaubt alle Domains
 
 require("./scheduler");
 const { exec } = require("child_process");
