@@ -1,6 +1,8 @@
 // fetch-wm.js
 const fs = require('fs');
 console.log("🔄 Fetch läuft um:", new Date().toISOString());
+// DEBUG: Prüfen, ob der API-Key gelesen wird
+console.log("🔑 API_KEY:", process.env.API_KEY ? "✅ gesetzt" : "❌ fehlt");
 console.log("🔧 BLITZTIPPTABELLE ENV =", process.env.BLITZTIPPTABELLE);
 const BASE_URL = "https://api.football-data.org/v4/competitions/WC";
 
