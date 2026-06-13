@@ -44,7 +44,7 @@ app.get("/__test-image", (req, res) => {
   const path = require("path");
 
   try {
-    const filePath = path.join(__dirname, "data", "news-image.png");
+    const filePath = path.join(__dirname, "data", "blitz.png");
 
     fs.writeFileSync(
       filePath,
@@ -59,10 +59,13 @@ app.get("/__test-image", (req, res) => {
 });
 
 /* =========================================================
-   🖼️ OPTIONAL: IMAGE UPLOAD (noch NICHT im Einsatz)
+   🖼️ IMAGE UPLOAD (noch NICHT im Einsatz)
    -> wird erst genutzt, wenn wir es aktiv einbauen
 ========================================================= */
 app.post("/upload-image", (req, res) => {
+  const fs = require("fs");
+  const path = require("path");
+
   try {
     const { imageBase64 } = req.body;
 
@@ -70,13 +73,15 @@ app.post("/upload-image", (req, res) => {
       return res.status(400).json({ ok: false, error: "no image" });
     }
 
-    const buffer = Buffer.from(imageBase64, "base64");
+    // Base64 → Buffer
+    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, "");
+    const buffer = Buffer.from(base64Data, "base64");
 
-    const filePath = path.join(__dirname, "data", "news-image.png");
+    const filePath = path.join(__dirname, "data", "blitz.png");
 
     fs.writeFileSync(filePath, buffer);
 
-    console.log("📸 Bild aktualisiert");
+    console.log("🖼️ Neues Bild gespeichert");
 
     res.json({
       ok: true,
