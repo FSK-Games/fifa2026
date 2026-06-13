@@ -37,6 +37,28 @@ app.get("/__test-write", (req, res) => {
 });
 
 /* =========================================================
+   🧪 TEST IMAGE WRITE (SAFE)
+========================================================= */
+app.get("/__test-image", (req, res) => {
+  const fs = require("fs");
+  const path = require("path");
+
+  try {
+    const filePath = path.join(__dirname, "data", "news-image.png");
+
+    fs.writeFileSync(
+      filePath,
+      "TEST_IMAGE_" + new Date().toISOString()
+    );
+
+    res.send("IMAGE WRITE OK");
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("IMAGE WRITE FAILED");
+  }
+});
+
+/* =========================================================
    🖼️ OPTIONAL: IMAGE UPLOAD (noch NICHT im Einsatz)
    -> wird erst genutzt, wenn wir es aktiv einbauen
 ========================================================= */
