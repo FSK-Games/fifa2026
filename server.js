@@ -62,23 +62,38 @@ app.get("/__test-image", (req, res) => {
    🖼️ IMAGE UPLOAD (noch NICHT im Einsatz)
    -> wird erst genutzt, wenn wir es aktiv einbauen
 ========================================================= */
-app.get("/__write-blitz", (req, res) => {
+app.post("/upload-image", (req, res) => {
   const fs = require("fs");
   const path = require("path");
 
   try {
+    const { imageBase64 } = req.body;
+
+    if (!imageBase64) {
+      return res.status(400).json({ ok: false, error: "no image" });
+    }
+
+    // Base64 → Buffer
+    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, "");
+    const buffer = Buffer.from(base64Data, "base64");
+
     const filePath = path.join(__dirname, "data", "blitz.png");
 
-    fs.writeFileSync(filePath, "TEST_OK_" + new Date().toISOString());
+    fs.writeFileSync(filePath, buffer);
 
-    console.log("🧪 blitz.png geschrieben");
+    console.log("🖼️ Neues Bild gespeichert");
 
-    res.send("WRITE OK");
+    res.json({
+      ok: true,
+      url: "/data/news-image.png"
+    });
+
   } catch (err) {
-    console.error(err);
-    res.status(500).send("WRITE FAILED");
+    console.error("UPLOAD ERROR:", err);
+    res.status(500).json({ ok: false });
   }
 });
+
 
 /* =========================================================
    SERVER START
